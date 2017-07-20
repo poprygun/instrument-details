@@ -1,0 +1,8 @@
+---
+applications:
+- name: instrument-details
+  memory: 512M
+  path: ./target/instrument-details.war
+  instances: 2
+#  services:
+#  - my-app-ds-service
